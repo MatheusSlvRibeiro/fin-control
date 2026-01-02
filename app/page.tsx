@@ -1,5 +1,11 @@
-import { Sidebar } from "@/components/layout/Sidebar/sidebar";
+import { PageHeader } from "@components/layout/PageHeader/PageHeader";
 
 export default function Home() {
-    return <Sidebar />;
+    return (
+        <div>
+            <PageHeader 
+                title="Resumo"
+                subtitle="Visão geral das suas finanças" />
+        </div>
+    );
 }

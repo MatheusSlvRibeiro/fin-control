@@ -1,0 +1,11 @@
+@use "./globals.scss";
+@use "./variables.scss";
+
+.app-layout {
+    display: flex;
+}
+
+main {
+    flex: 1;
+    min-height: 100vh;
+}

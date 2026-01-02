@@ -1,0 +1,22 @@
+@use "../../../styles/variables.scss" as *;
+
+.PageHeader{
+    padding: 2rem;
+
+    .PageHeaderDiv {
+        display: flex;
+        flex-direction: column;
+        gap: .3rem;
+    }
+}
+
+.title{
+    font-size: $font-size-xl;
+}
+
+.subtitle{
+    font-size: $font-size-sm;
+    font-weight: $font-weight-regular;
+    color: $font-color-secondary;
+}
+
