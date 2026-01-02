@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+
+// --------------------------------------------------
+// 🎨 Colors
+// --------------------------------------------------
+
+$border-color: #e5e7eb;
+$background-color: #ffffff;
+$body-color: #fafafa;
+
+// --------------------------------------------------
+// 🔤 Typography
+// --------------------------------------------------
+$font-family-base: 'Inter', sans-serif;
+
+$font-color-primary: #29303d;
+$font-color-secondary: #6b7280;
+$font-color-tertiary: #e9eaed;
+
+$font-size-xs: 0.75rem; // 12px
+$font-size-sm: 0.875rem; // 14px
+$font-size-md: 1rem; // 16px
+$font-size-lg: 1.25rem; // 20px
+$font-size-xl: 1.5rem; // 24px
+$font-size-xxl: 1.87rem; // 30px
+
+// Font Weights
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+
+// --------------------------------------------------
+// 📱 Breakpoints
+// --------------------------------------------------
+$breakpoint-sm: 480px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 1024px;
+$breakpoint-xl: 1280px;
+
+// --------------------------------------------------
+// 📏 Spacing
+// --------------------------------------------------
+$spacing-xs: 0.5rem; // 8px
+$spacing-sm: 0.75rem; // 12px
+$spacing-md: 1rem; // 16px
+$spacing-lg: 1.5rem; // 24px
