@@ -1,0 +1,56 @@
+[
+    {
+        "id": "1",
+        "name": "Trabalho",
+        "type": "entrada",
+        "color": "#22c55e"
+    },
+    {
+        "id": "2",
+        "name": "Investimentos",
+        "type": "entrada",
+        "color": "#10b981"
+    },
+    {
+        "id": "3",
+        "name": "Freelance",
+        "type": "entrada",
+        "color": "#14b8a6"
+    },
+    {
+        "id": "4",
+        "name": "Moradia",
+        "type": "saida",
+        "color": "#ef4444"
+    },
+    {
+        "id": "5",
+        "name": "Alimentação",
+        "type": "saida",
+        "color": "#f97316"
+    },
+    {
+        "id": "6",
+        "name": "Transporte",
+        "type": "saida",
+        "color": "#eab308"
+    },
+    {
+        "id": "7",
+        "name": "Contas",
+        "type": "saida",
+        "color": "#3b82f6"
+    },
+    {
+        "id": "8",
+        "name": "Saúde",
+        "type": "saida",
+        "color": "#8b5cf6"
+    },
+    {
+        "id": "9",
+        "name": "Lazer",
+        "type": "saida",
+        "color": "#ec4899"
+    }
+]

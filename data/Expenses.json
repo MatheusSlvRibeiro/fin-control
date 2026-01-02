@@ -1,0 +1,50 @@
+[
+    {
+        "id": "1",
+        "description": "Salário",
+        "category": "trabalho",
+        "type": "income",
+        "value": 7500,
+        "date": "2024-01-15"
+    },
+    {
+        "id": "2",
+        "description": "Aluguel",
+        "category": "moradia",
+        "type": "expense",
+        "value": 1500,
+        "date": "2024-01-10"
+    },
+    {
+        "id": "3",
+        "description": "Supermercado",
+        "category": "alimentação",
+        "type": "expense",
+        "value": 450,
+        "date": "2024-01-08"
+    },
+    {
+        "id": "4",
+        "description": "Freelance",
+        "category": "trabalho",
+        "type": "income",
+        "value": 1200,
+        "date": "2024-01-05"
+    },
+    {
+        "id": "5",
+        "description": "Internet",
+        "category": "contas",
+        "type": "expense",
+        "value": 120,
+        "date": "2024-01-03"
+    },
+    {
+        "id": "6",
+        "description": "Academia",
+        "category": "saude",
+        "type": "expense",
+        "value": 89,
+        "date": "2024-01-02"
+    }
+]

@@ -1,3 +1,5 @@
+// import SimpleAreaChart from "@/components/charts/ExpenseChart";
+import { SummaryCard } from "@/components/charts/SummaryCard/SummaryCard";
 import { PageHeader } from "@components/layout/PageHeader/PageHeader";
 
 export default function Home() {
@@ -6,6 +8,9 @@ export default function Home() {
             <PageHeader 
                 title="Resumo"
                 subtitle="Visão geral das suas finanças" />
+            
+            <SummaryCard />
+            {/* <SimpleAreaChart /> */}
         </div>
     );
 }

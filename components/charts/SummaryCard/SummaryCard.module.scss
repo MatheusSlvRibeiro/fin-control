@@ -1,0 +1,94 @@
+@use "../../../styles/variables.scss" as *;
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    padding: 0 2rem;
+    gap: 0.5rem;
+}
+
+.card {
+    color: $body-color;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    width: 200px;
+    border-radius: 15px;
+    padding: .8rem;
+
+    p {
+        color: $body-color;
+    }
+}
+
+.values {
+    font-size: $font-size-md;
+}
+
+.names {
+    font-weight: $font-weight-regular;
+    font-size: $font-size-xs;
+}
+
+.default {
+    background-color: $blue-light;
+
+    .icon {
+        background-color: darken($blue-dark, 5%);
+        padding: .4rem;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.income {
+    background-color: $green;
+
+    .icon {
+        background-color: darken($green, 5%);
+        padding: .4rem;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.expense {
+    background-color: $warning;
+
+    .icon {
+        background-color: darken($warning, 5%);
+        padding: .4rem;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.transfer {
+    background-color: $yellow;
+    
+    .icon {
+        background-color: darken($yellow, 5%);
+        padding: .4rem;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.credit {
+    background-color: $blue-dark;
+
+    .icon {
+        background-color: darken($blue-dark, 5%);
+        padding: .4rem;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+    }
+}
