@@ -12,32 +12,32 @@ import styles from "./ExpenseChart.module.scss";
 
 const data = [
     {
-        name: "Page A",
-        uv: 4000,
+        name: "27/12",
+        despesa: 19,
     },
     {
-        name: "Page B",
-        uv: 3000,
+        name: "28/12",
+        despesa: 89,
     },
     {
-        name: "Page C",
-        uv: 2000,
+        name: "29/12",
+        despesa: 120,
     },
     {
-        name: "Page D",
-        uv: 2780,
+        name: "30/12",
+        despesa: 550,
     },
     {
-        name: "Page E",
-        uv: 1890,
+        name: "31/12",
+        despesa: 50,
     },
     {
-        name: "Page F",
-        uv: 2390,
+        name: "01/01",
+        despesa: 1100,
     },
     {
-        name: "Page G",
-        uv: 3490,
+        name: "02/01",
+        despesa: 100,
     },
 ];
 
@@ -57,7 +57,7 @@ const SimpleAreaChart = () => {
                 <Tooltip />
                 <Area
                     type="monotone"
-                    dataKey="uv"
+                    dataKey="despesa"
                     stroke="#D94E41"
                     fill="#D94E41"
                 />

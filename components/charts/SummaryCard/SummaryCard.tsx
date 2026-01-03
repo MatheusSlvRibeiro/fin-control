@@ -49,36 +49,44 @@ export function SummaryCard() {
             variant: "transfer" as VariantKey,
             value: totals.transfer ?? 0,
         },
-        {
-            icon: CreditCard,
-            name: "Cartões de Crédito",
-            variant: "credit" as VariantKey,
-            value: totals.credit ?? 0,
-        },
+        // {
+        //     icon: CreditCard,
+        //     name: "Cartões de Crédito",
+        //     variant: "credit" as VariantKey,
+        //     value: totals.credit ?? 0,
+        // },
     ] as const;
 
     return (
-        <section className={styles.grid}>
-            {Expenses.map((item) => (
-                <div
-                    key={item.name}
-                    className={`${styles.card} ${variantStyles[item.variant]}`}
-                >
-                    <div className={styles.icon}>
-                        <item.icon />
+        <section className={styles.container}>
+            <p>Visão Geral</p>
+            <div className={styles.grid}>
+                {Expenses.map((item) => (
+                    <div
+                        key={item.name}
+                        className={`${styles.card} ${
+                            variantStyles[item.variant]
+                        }`}
+                    >
+                        <div className={styles.icon}>
+                            <item.icon />
+                        </div>
+                        <div className={styles.itemInfo}>
+                            <span className={styles.values}>
+                                <span>R$ </span>
+                                {Number(item.value ?? 0).toLocaleString(
+                                    "pt-BR",
+                                    {
+                                        minimumFractionDigits: 2,
+                                        maximumFractionDigits: 2,
+                                    }
+                                )}
+                            </span>
+                            <p className={styles.names}>{item.name}</p>
+                        </div>
                     </div>
-                    <div className={styles.itemInfo}>
-                        <span className={styles.values}>
-                            <span>R$ </span>
-                            {Number(item.value ?? 0).toLocaleString("pt-BR", {
-                                minimumFractionDigits: 2,
-                                maximumFractionDigits: 2,
-                            })}
-                        </span>
-                        <p className={styles.names}>{item.name}</p>
-                    </div>
-                </div>
-            ))}
+                ))}
+            </div>
         </section>
     );
 }

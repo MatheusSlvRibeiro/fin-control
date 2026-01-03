@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Minha carteira",
+        "incomes": 0,
+        "expenses": 0,
+        "balance": 0
+    },
+    {
+        "name": "Minha conta corrente",
+        "incomes": 0,
+        "expenses": 0,
+        "balance": 0
+    }
+]

@@ -1,5 +1,11 @@
 @use "../../../styles/variables.scss" as *;
 
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
 .grid {
     display: flex;
     flex-direction: row;
@@ -13,7 +19,8 @@
     flex-direction: row;
     gap: 1rem;
     align-items: center;
-    width: 200px;
+    width: 100%;
+    max-height: 60px;
     border-radius: 15px;
     padding: .8rem;
 
@@ -37,6 +44,8 @@
     .icon {
         background-color: darken($blue-dark, 5%);
         padding: .4rem;
+        width: 30px;
+        height: 30px;
         border-radius: 50%;
         display: flex;
         align-items: center;
@@ -47,6 +56,8 @@
     background-color: $green;
 
     .icon {
+        width: 30px;
+        height: 30px;
         background-color: darken($green, 5%);
         padding: .4rem;
         border-radius: 50%;
@@ -59,6 +70,9 @@
     background-color: $warning;
 
     .icon {
+        
+        width: 30px;
+        height: 30px;
         background-color: darken($warning, 5%);
         padding: .4rem;
         border-radius: 50%;
@@ -71,6 +85,9 @@
     background-color: $yellow;
     
     .icon {
+        
+        width: 30px;
+        height: 30px;
         background-color: darken($yellow, 5%);
         padding: .4rem;
         border-radius: 50%;
@@ -83,6 +100,9 @@
     background-color: $blue-dark;
 
     .icon {
+        
+        width: 30px;
+        height: 30px;
         background-color: darken($blue-dark, 5%);
         padding: .4rem;
         border-radius: 50%;

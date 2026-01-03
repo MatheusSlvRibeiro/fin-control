@@ -1,0 +1,14 @@
+@use "../../../styles/variables.scss" as *;
+
+.pieChart{
+    background-color: $background-color;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.container{
+    width: 100%;
+    aspect-ratio: 1;
+}

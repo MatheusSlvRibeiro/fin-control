@@ -22,7 +22,7 @@ export function Sidebar() {
         {
             name: "Contas",
             icon: Landmark,
-            path: "/contas",
+            path: "/accounts",
         },
         {
             name: "Transações",
