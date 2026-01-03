@@ -14,11 +14,11 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="pt-BR">
-            <body
-                className={`app-layout`}
-            >
+            <body className="app-layout">
                 <Sidebar />
-                <main>{children}</main>
+                <main >
+                    {children}
+                </main>
             </body>
         </html>
     );

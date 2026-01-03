@@ -5,7 +5,7 @@
         "category": "trabalho",
         "type": "income",
         "value": 7500,
-        "date": "2024-01-15"
+        "date": "2026-01-02"
     },
     {
         "id": "2",
@@ -13,7 +13,7 @@
         "category": "moradia",
         "type": "expense",
         "value": 1500,
-        "date": "2024-01-10"
+        "date": "2026-01-01"
     },
     {
         "id": "3",
@@ -21,7 +21,7 @@
         "category": "alimentação",
         "type": "expense",
         "value": 450,
-        "date": "2024-01-08"
+        "date": "2025-12-31"
     },
     {
         "id": "4",
@@ -29,7 +29,7 @@
         "category": "trabalho",
         "type": "income",
         "value": 1200,
-        "date": "2024-01-05"
+        "date": "2025-12-30"
     },
     {
         "id": "5",
@@ -37,7 +37,7 @@
         "category": "contas",
         "type": "expense",
         "value": 120,
-        "date": "2024-01-03"
+        "date": "2025-12-29"
     },
     {
         "id": "6",
@@ -45,6 +45,14 @@
         "category": "saude",
         "type": "expense",
         "value": 89,
-        "date": "2024-01-02"
+        "date": "2025-12-28"
+    },
+    {
+        "id": "6",
+        "description": "Spotify",
+        "category": "contas",
+        "type": "expense",
+        "value": 9,
+        "date": "2025-12-27"
     }
 ]

@@ -10,4 +10,6 @@ export const expenseService = {
             .filter((item) => !filter.type || item.type === filter.type)
             .reduce((total, item) => total + Number(item.value), 0);
     },
+
+    
 }

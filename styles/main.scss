@@ -1,8 +1,9 @@
 @use "./globals.scss";
-@use "./variables.scss";
+@use "./variables.scss" as *;
 
 .app-layout {
     display: flex;
+    background-color: $body-color;
 }
 
 main {
